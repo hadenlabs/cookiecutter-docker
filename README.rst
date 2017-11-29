@@ -1,113 +1,116 @@
-|Build| |Issues| |License|
+Cookiecutter Docker
+===================
+
+|Build Status| |GitHub issues| |GitHub license|
 
 :Version: 0.0.0
-:Web: https://git.osp.pe/Templates/cookiecutter-docker
-:Download: https://git.osp.pe/Templates/cookiecutter-docker
-:Source: https://git.ops.pe/Templates/cookiecutter-docker
-:Keywords: Cookiecutter
-
+:Web: https://github.com/hadenlabs/cookiecutter-docker
+:Download: https://github.com/hadenlabs/cookiecutter-docker
+:Source: https://github.com/hadenlabs/cookiecutter-docker
+:Keywords: cookiecutter-docker
 
 .. contents:: Table of Contents:
     :local:
 
-Cookiecutter docker
-===================
-
-recipe to easily create Docker Image.
-
-
 Features
 --------
 
-*  Only Creates the necessary files and folders.
-*  Blazing fast creation, forget about file creation and focus in
-   actions.
+* Task
 
-
-How to Use
-----------
-
-This will generate this folders (Please note the absence of templates
-folder):
-
-.. code:: bash
-
-  cookiecutter https://git.osp.com/Templates/cookiecutter-docker.git
-
-Dependences
------------
-
-- `python`_
-- `docker`_
-- `docker compose`_
-
-Actions
--------
-
-Other commands for developing are written in Makefile:
+Dependencies
+------------
 
 .. code-block:: bash
 
-  λ make
-    ༼ つ ◕_◕ ༽つ Makefile for cookiecutter-docker
-    Usage:
-        environment               create environment with pyenv
-        install                   install dependences python by env
-        clean                     remove files of build
-        setup                     install requirements
+   $ make setup
 
-        Docker:
+Support
+-------
 
-            docker.build         build all services with docker-compose
-            docker.down          down services docker-compose
-            docker.ssh           connect by ssh to container
-            docker.stop          stop services by env
-            docker.verify_network           verify network
-            docker.up             up services of docker-compose
-            docker.run            run {service} {env}
-            docker.list           list services of docker
+If you want to support this project, i only accept ``IOTA`` :p.
 
-        Docs:
+.. code-block:: bash
 
-            docs.show                  Show restview README
-            docs.make.html             Make documentation html
-            docs.make.pdf              Make documentation pdf
+    Address: FTDCZELEMOQGL9MBWFZENJLFIZUBGMXLFVPRB9HTWYDYPTFKASJCEGJMSAXUWDQC9SJUDMZVIQKACQEEYPEUYLAMMD
 
-        Tests:
 
-            test                       Run all test
-            test.lint                  Run all pre-commit
-            test.syntax                Run all syntax in code
+Team
+----
 
++---------------+
+| |Luis Mayta|  |
++---------------+
+| `luis mayta`_ |
++---------------+
+
+License
+-------
+
+MIT
 
 Changelog
 ---------
 
-Please see `CHANGELOG <CHANGELOG.rst>`__ for more information what has
-changed recently.
+Please see `CHANGELOG`_ for more information what
+has changed recently.
 
 Contributing
 ------------
 
-Please see `CONTRIBUTING <CONTRIBUTING.rst>`__ for details.
+Contributions are welcome!
 
-Credits
--------
+Review the `CONTRIBUTING`_ for details on how to:
 
-Made with :heart: :coffee: and :pizza: by `OSP <https://git.osp.pe>`__.
+* Submit issues
+* Submit pull requests
 
--  `All Contributors`_
+Contact Info
+------------
 
-.. |Build| image:: https://travis-ci.org/Templates/cookiecutter-docker.svg
-   :target: https://travis-ci.org/Templates/cookiecutter-docker
-.. |Issues| image:: https://img.shields.io/github/issues/Templates/cookiecutter-docker.svg
-   :target: https://git.osp.pe/Templates/cookiecutter-docker/issues
-.. |License| image:: https://img.shields.io/git.osp.pe/license/mashape/apistatus.svg?style=flat-square
-   :target: LICENSE
+Feel free to contact me to discuss any issues, questions, or comments.
+
+* `Email`_
+* `Twitter`_
+* `GitHub`_
+* `LinkedIn`_
+* `Website`_
+* `PGP`_
+
+|linkedin| |beacon| |made|
+
+Made with :coffee: and :pizza: by `luis mayta`_ and `hadenlabs`_.
 
 .. Links
+.. _`changelog`: CHANGELOG.rst
+.. _`contributors`: AUTHORS
+.. _`contributing`: CONTRIBUTING.rst
 
-.. _`All Contributors`: AUTHORS.rst
-.. _`python`: https://www.python.org
-.. _`docker`: https://www.docker.io
-.. _`docker compose`: https://docs.docker.com/compose
+.. _`hadenlabs`: https://github.com/hadenlabs
+.. _`luis mayta`: https://github.com/luismayta
+
+.. _`Github`: https://github.com/luismayta
+.. _`Linkedin`: https://www.linkedin.com/in/luismayta
+.. _`Email`: slovacus@gmail.com
+    :target: mailto:slovacus@gmail.com
+.. _`Twitter`: https://twitter.com/slovacus
+.. _`Website`: http://luismayta.github.io
+.. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
+
+.. |Build Status| image:: https://travis-ci.org/hadenlabs/cookiecutter-docker.svg
+   :target: https://travis-ci.org/hadenlabs/cookiecutter-docker
+.. |GitHub issues| image:: https://img.shields.io/github/issues/hadenlabs/cookiecutter-docker.svg
+   :target: https://github.com/hadenlabs/cookiecutter-docker/issues
+.. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
+   :target: LICENSE
+
+.. Team:
+.. |Luis Mayta| image:: https://github.com/luismayta.png?size=100
+   :target: https://github.com/luismayta
+
+.. Footer:
+.. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
+   :target: http://pe.linkedin.com/in/luismayta
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/cookiecutter-docker/readme
+   :target: https://github.com/hadenlabs/cookiecutter-docker
+.. |made| image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
+   :target: http://www.python.org
