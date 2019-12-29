@@ -105,7 +105,7 @@ Made with :heart: :coffee: and :pizza: by `luismayta`_.
 .. _`CONTRIBUTING`: docs/source/CONTRIBUTING.rst
 .. _`LICENSE`: LICENSE
 
-.. _`hadenlabs`: https://github.com/hadenlabs
+.. _`equipindustry`: https://github.com/equipindustry
 .. _`luismayta`: https://github.com/luismayta
 
 .. _`Github`: https://github.com/luismayta
@@ -116,20 +116,20 @@ Made with :heart: :coffee: and :pizza: by `luismayta`_.
 .. _`Website`: http://luismayta.github.io
 .. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. |Build Status| image:: https://travis-ci.org/hadenlabs/{{cookiecutter.repository_name}}.svg
-   :target: https://travis-ci.org/hadenlabs/{{cookiecutter.repository_name}}
-.. |GitHub issues| image:: https://img.shields.io/github/issues/hadenlabs/{{cookiecutter.repository_name}}.svg
-   :target: {{cookiecutter.repository_domain}}/hadenlabs/{{cookiecutter.repository_name}}/issues
+.. |Build Status| image:: https://travis-ci.org/equipindustry/{{cookiecutter.repository_name}}.svg
+   :target: https://travis-ci.org/equipindustry/{{cookiecutter.repository_name}}
+.. |GitHub issues| image:: https://img.shields.io/github/issues/equipindustry/{{cookiecutter.repository_name}}.svg
+   :target: {{cookiecutter.repository_domain}}/equipindustry/{{cookiecutter.repository_name}}/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
    :target: LICENSE
 
 .. Badges for images hub docker
-.. |MicroBadger| image:: https://images.microbadger.com/badges/image/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_name}}.svg
-   :target: http://microbadger.com/images/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_name}}
-.. |Docker Stars| image:: https://img.shields.io/docker/stars/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_name}}.svg?style=flat-square
-   :target: https://hub.docker.com/r/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_name}}
-.. |Docker Pulls| image:: https://img.shields.io/docker/pulls/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_name}}.svg?style=flat-square
-   :target: https://hub.docker.com/r/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_name}}
+.. |MicroBadger| image:: https://images.microbadger.com/badges/image/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_image_name}}.svg
+   :target: http://microbadger.com/images/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_image_name}}
+.. |Docker Stars| image:: https://img.shields.io/docker/stars/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_image_name}}.svg?style=flat-square
+   :target: https://hub.docker.com/r/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_image_name}}
+.. |Docker Pulls| image:: https://img.shields.io/docker/pulls/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_image_name}}.svg?style=flat-square
+   :target: https://hub.docker.com/r/{{cookiecutter.docker_hub_username}}/{{cookiecutter.docker_image_name}}
 
 .. Dependences:
 
