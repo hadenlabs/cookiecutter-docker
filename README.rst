@@ -4,9 +4,9 @@ Cookiecutter Docker
 |Build Status| |GitHub issues| |GitHub license|
 
 :Version: 0.0.0
-:Web: https://github.com/equipindustry/cookiecutter-docker
-:Download: https://github.com/equipindustry/cookiecutter-docker
-:Source: https://github.com/equipindustry/cookiecutter-docker
+:Web: https://github.com/hadenlabs/cookiecutter-docker
+:Download: https://github.com/hadenlabs/cookiecutter-docker
+:Source: https://github.com/hadenlabs/cookiecutter-docker
 :Keywords: cookiecutter-docker
 
 .. contents:: Table of Contents:
@@ -58,7 +58,7 @@ Quickstart
 
 Generate a Cookiecutter Next Redux Saga project::
 
-    cookiecutter gh:equipindustry/cookiecutter-docker
+    cookiecutter gh:hadenlabs/cookiecutter-docker
 
 Support
 -------
@@ -122,14 +122,14 @@ Feel free to contact me to discuss any issues, questions, or comments.
 
 |linkedin| |beacon| |made|
 
-Made with :coffee: and :pizza: by `luis mayta`_ and `equipindustry`_.
+Made with :coffee: and :pizza: by `luis mayta`_ and `hadenlabs`_.
 
 .. Links
 .. _`changelog`: CHANGELOG.rst
 .. _`contributors`: docs/source/AUTHORS.rst
 .. _`contributing`: docs/source/CONTRIBUTING.rst
 
-.. _`equipindustry`: https://github.com/equipindustry
+.. _`hadenlabs`: https://github.com/hadenlabs
 .. _`luis mayta`: https://github.com/luismayta
 
 
@@ -141,10 +141,10 @@ Made with :coffee: and :pizza: by `luis mayta`_ and `equipindustry`_.
 .. _`Website`: http://luismayta.github.io
 .. _`PGP`: https://keybase.io/luismayta/pgp_keys.asc
 
-.. |Build Status| image:: https://travis-ci.org/equipindustry/cookiecutter-docker.svg
-    :target: https://travis-ci.org/equipindustry/cookiecutter-docker
-.. |GitHub issues| image:: https://img.shields.io/github/issues/equipindustry/cookiecutter-docker.svg
-    :target: https://github.com/equipindustry/cookiecutter-docker/issues
+.. |Build Status| image:: https://travis-ci.org/hadenlabs/cookiecutter-docker.svg
+    :target: https://travis-ci.org/hadenlabs/cookiecutter-docker
+.. |GitHub issues| image:: https://img.shields.io/github/issues/hadenlabs/cookiecutter-docker.svg
+    :target: https://github.com/hadenlabs/cookiecutter-docker/issues
 .. |GitHub license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
     :target: LICENSE
 
@@ -157,8 +157,8 @@ Made with :coffee: and :pizza: by `luis mayta`_ and `equipindustry`_.
 
 .. |linkedin| image:: http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png
     :target: http://pe.linkedin.com/in/luismayta
-.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/equipindustry/cookiecutter-docker/readme
-    :target: https://github.com/equipindustry/cookiecutter-docker
+.. |beacon| image:: https://ga-beacon.appspot.com/UA-65019326-1/github.com/hadenlabs/cookiecutter-docker/readme
+    :target: https://github.com/hadenlabs/cookiecutter-docker
 .. |made| image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
     :target: http://www.python.org
 
