@@ -5,9 +5,6 @@ verify_ssl = true
 
 [dev-packages]
 docker-compose = "*"
-restview = "*"
-rst = "*"
-caniusepython3 = "*"
 isort = "*"
 mypy = "*"
 pycodestyle = "*"
@@ -22,14 +19,24 @@ ipython = "*"
 parso = "*"
 pyyaml = "*"
 bumpversion = "*"
-bumplus = "*"
 pre-commit = "*"
 doc8 = "*"
+bridgecrew = "*"
+mkdocs = "*"
+click-man = "*"
+pygments = "*"
+pymdown-extensions = "*"
+mkdocs-material = "*"
+checkov = "*"
+sh = "*"
+binaryornot = "*"
+grip = "*"
 
 [packages]
 
 [scripts]
 test = "pytest"
+update = "pre-commit autoupdate"
 
 [requires]
 python_version = "3.8.0"
