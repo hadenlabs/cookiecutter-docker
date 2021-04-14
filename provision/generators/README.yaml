@@ -1,0 +1,63 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: cookiecutter-docker
+
+email:
+  support: support@hadenlabs.com
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/cookiecutter-docker
+
+# Badges to display
+badges:
+  - name: GitHub tag (latest SemVer)
+    image: https://img.shields.io/github/v/tag/hadenlabs/cookiecutter-docker.svg?label=latest&sort=semver
+    url: https://github.com/hadenlabs/cookiecutter-docker/releases
+  - name: Lint
+    image: https://github.com/hadenlabs/cookiecutter-docker/actions/workflows/lint.yml/badge.svg?branch=develop
+    url: https://github.com/hadenlabs/cookiecutter-docker/actions
+  - name: Issues
+    image: https://img.shields.io/github/issues/hadenlabs/cookiecutter-docker.svg
+    url: https://github.com/hadenlabs/cookiecutter-docker/issues
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/cookiecutter-docker.svg
+    url: https://github.com/hadenlabs/cookiecutter-docker/releases
+  - name: Beacon
+    image: https://ga-beacon.appspot.com/G-MZEK48EGE8/cookiecutter-docker/readme
+    url: https://github.com/hadenlabs/cookiecutter-docker
+
+# Short description of this project
+description: |-
+  cookiecutter-docker for generate terraform module.
+
+requirements: |-
+
+  List of applications:
+
+  - [Pyenv](https://github.com/pyenv/pyenv)
+  - [Docker](https://www.docker.com/)
+
+installation:
+  - 'docs/include/installation/pip.md'
+  - 'docs/include/installation/homebrew.md'
+  - 'docs/include/installation/pipenv.md'
+
+# How to use this project
+usage: |-
+  ```bash
+  cookiecutter gh:hadenlabs/cookiecutter-docker
+  ```
+
+examples:
+  - 'docs/examples/common.md'
